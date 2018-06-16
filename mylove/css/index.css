@@ -63,8 +63,9 @@ body {
     position: absolute;
     font-family: "Segoe Script";
     color: snow;
+    font-weight: bold;
     font-size: 26px;
-    left: 10%;
+    left: 28%;
     top: 8%; }
   body .box, body .box1, body .box2, body .box3, body .box4, body .box5 {
     width: 80%;
@@ -82,10 +83,11 @@ body {
     background-size: cover; }
   body .memory {
     position: absolute;
-    font-family: "john Handy LET Plain";
+    /*font-family: "john Handy LET Plain";*/
     font-size: 2em;
-    color: #c7254e;
-    padding-left: 12%;
+    font-weight:600;
+    color: skyblue;
+    padding-left: 5%;
     bottom: 2%; }
 
 .kuang1 {
@@ -106,15 +108,15 @@ body {
 
 .img3 {
   position: absolute;
-  left: -693px;
+  left: -703px;
   top: -1234px;
   transform-origin: 100% 98%;
   border-radius: 30px; }
 
 .img4 {
   position: absolute;
-  left: -1193px;
-  top: 0px;
+  left: -1218px;
+  top: 15px;
   transform-origin: 100% 0%;
   border-radius: 30px; }
 
@@ -301,6 +303,7 @@ h2 {
   font-size: 28px; }
 
 h1, h2, i {
-  color: #f7e1b5; }
+  color: #f7e1b5; 
+ font-size: 28px !important;}
 
 /*# sourceMappingURL=index.css.map */
