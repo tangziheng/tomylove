@@ -79,7 +79,7 @@ body {
   body .box5 {
     background: #262626; }
   body .box4 {
-    background: url("../img/bg4.jpg") no-repeat center;
+    background: url("../images/bg4.jpg") no-repeat center;
     background-size: cover; }
   body .memory {
     position: absolute;

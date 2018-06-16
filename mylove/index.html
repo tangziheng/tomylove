@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta http-equiv=“X-UA-Compitable” content=“IE=edge”>
     <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="shortcut icon" href="img/life.jpg">
+    <link rel="shortcut icon" href="images/life.jpg">
     <link rel="stylesheet" href="css/animate.min.css"/>
     <link rel="stylesheet" href="css/index.css"/>
     <title >life</title>
@@ -19,21 +19,21 @@
        <div class="col-xs-12">
           <p><span class="logo" style="animation-duration: 1.5s">MyLove</span></p>
            <span id="dianji">点击播放☞</span>
-           <img class="playing pull-right" id="omusic" src="img/music97.png" alt=""/>
+           <img class="playing pull-right" id="omusic" src="images/music97.png" alt=""/>
        </div>
     </div>
     <p class="tomy">You and Me</p>
     <div class="box">
-        <img src="img/14.png" class="img-responsive img1"/>
+        <img src="images/14.png" class="img-responsive img1"/>
     </div>
     <div class="box1" style="display: none">
-        <img src="img/151.png" class="img2" />
+        <img src="images/151.png" class="img2" />
     </div>
     <div class="box2" style="display: none">
-        <img src="img/18.png" class="img3 " />
+        <img src="images/18.png" class="img3 " />
     </div>
     <div class="box3" style="display: none">
-        <img src="img/1.png" class="img4 " />
+        <img src="images/1.png" class="img4 " />
     </div>
     <div class="box4" style="opacity: 0"></div>
     <div class="box5" style="opacity: 0">
@@ -76,15 +76,15 @@
             $('.box').css('display','none');
             $('.box1').css('display','block');
             $('.img2').transition({scale:0.306},2500,"linear",function(){
-                var qunian=$('<img src="img/qunianjintian.png" class="animated fadeIn qunian" style="animation-duration: 3s; animation-delay: 1.5s">');
-                var me=$('<img src="img/me.jpg" class="animated fadeInLeftBig me" style="animation-duration: 2.5s;animation-delay: 5s">');
+                var qunian=$('<img src="images/qunianjintian.png" class="animated fadeIn qunian" style="animation-duration: 3s; animation-delay: 1.5s">');
+                var me=$('<img src="images/me.jpg" class="animated fadeInLeftBig me" style="animation-duration: 2.5s;animation-delay: 5s">');
                 var yujian=$('<p class="animated fadeInRightBig yujian" style="animation-duration: 3s;animation-delay: 2.5s">从心底里温暖着我的，是你！</p>>');
-                var diyicijian=$('<img src="img/diyicijian.png" class="animated fadeIn diyicijian" style="animation-duration: 3s;animation-delay: 8s" >');
-                var diyicijianta=$('<img src="img/ta1.jpg" class="animated fadeIn ta1" style="animation-duration: 2.5s;animation-delay: 7.0s" >');
-                var paiji=$('<img src="img/paiji.png" class="animated fadeIn paiji" style="animation-duration: 3s;animation-delay: 9s" >');
-                var puke2=$('<img src="img/puke2.png" class="animated fadeIn puke2" style="animation-duration: 3s;animation-delay: 9.3s" >');
-                var puke3=$('<img src="img/puke3.png" class="animated fadeIn puke3" style="animation-duration: 3s;animation-delay: 9.7s" >');
-                var puke4=$('<img src="img/puke4.png" class="animated fadeIn puke4" style="animation-duration: 3s;animation-delay: 10s" >');
+                var diyicijian=$('<img src="images/diyicijian.png" class="animated fadeIn diyicijian" style="animation-duration: 3s;animation-delay: 8s" >');
+                var diyicijianta=$('<img src="images/ta1.jpg" class="animated fadeIn ta1" style="animation-duration: 2.5s;animation-delay: 7.0s" >');
+                var paiji=$('<img src="images/paiji.png" class="animated fadeIn paiji" style="animation-duration: 3s;animation-delay: 9s" >');
+                var puke2=$('<img src="images/puke2.png" class="animated fadeIn puke2" style="animation-duration: 3s;animation-delay: 9.3s" >');
+                var puke3=$('<img src="images/puke3.png" class="animated fadeIn puke3" style="animation-duration: 3s;animation-delay: 9.7s" >');
+                var puke4=$('<img src="images/puke4.png" class="animated fadeIn puke4" style="animation-duration: 3s;animation-delay: 10s" >');
                 $('.box1').append(qunian);
                 $('.box1').append(me);
                 $('.box1').append(diyicijianta);
@@ -108,24 +108,24 @@
                                 setTimeout(function(){
                                     $('.box3').animate({'opacity':'0'},2000,function(){
                                         $('.box4').animate({'opacity':'1'},3500);
-                                        var yueding=$('<img src="img/allhua.png"  class="animated fadeIn yueding img-responsive" style="animation-duration: 1.5s;animation-delay: 2s">')
-                                        var qianshou=$('<img src="img/qianshou.png"  class="animated fadeInLeft qianshou " style="animation-duration: 1.5s;animation-delay: 5s">')
-                                        var zhougong=$('<img src="img/zhougong.png"  class="animated fadeIn zhougong " style="animation-duration: 1.5s;animation-delay: 8s">')
-                                        var maozi=$('<img src="img/maozi.png"  class="animated fadeIn maozi " style="animation-duration: 1.5s;animation-delay: 11s">')
-                                        var yantai=$('<img src="img/yantai.png"  class="animated fadeInRight yantai " style="animation-duration: 1.5s;animation-delay: 14s">')
-                                        var xijiao=$('<img src="img/xijiao.png"  class="animated fadeInLeftBig xijiao " style="animation-duration: 2s;animation-delay: 17s">')
-                                        var huazhuang=$('<img src="img/huazhuang.png"  class="animated fadeIn huazhuang " style="animation-duration: 1.5s;animation-delay: 20s">')
-                                        var xiao=$('<img src="img/xiao.png"  class="animated fadeInLeft xiao " style="animation-duration: 1.5s;animation-delay: 23s">')
-                                        var chuan=$('<img src="img/chuan.png"  class="animated fadeInRightBig chuan " style="animation-duration: 2s;animation-delay: 26s">')
-                                        var biaobai=$('<img src="img/biaobai.png"  class="animated fadeIn biaobai " style="animation-duration: 1.5s;animation-delay: 29s">')
-                                        var jiezhi=$('<img src="img/jiezhi.png"  class="animated fadeInRight jiezhi " style="animation-duration: 1.5s;animation-delay: 32s">')
-                                        var nvren=$('<img src="img/nvren.png"  class="animated fadeInLeftBig nvren " style="animation-duration: 2s;animation-delay: 35s">')
-                                        var hunsha=$('<img src="img/hunsha.png"  class="animated fadeIn hunsha " style="animation-duration: 1.5s;animation-delay: 39s">')
-                                        var jiaoshi=$('<img src="img/jiaoshi.png"  class="animated fadeInLeft jiaoshi " style="animation-duration: 1.5s;animation-delay: 42s">')
-                                        var bufen=$('<img src="img/bufen.png"  class="animated fadeIn bufen " style="animation-duration: 1.5s;animation-delay: 45s">')
-                                        var cengjing=$('<img src="img/cengjing.png"  class="animated fadeInUp cengjing img-responsive " style="animation-duration: 2.5s;animation-delay: 49s">')
-                                        var houlai=$('<img src="img/houlai.png"  class="animated fadeInUp houlai img-responsive " style="animation-duration: 2.5s;animation-delay: 54s">')
-                                        var xiaolongnv=$('<img src="img/xiaolongnv.png"  class="animated fadeIn xiaolongnv img-responsive " style="animation-duration: 2.5s;animation-delay: 59.5s">')
+                                        var yueding=$('<img src="images/allhua.png"  class="animated fadeIn yueding img-responsive" style="animation-duration: 1.5s;animation-delay: 2s">')
+                                        var qianshou=$('<img src="images/qianshou.png"  class="animated fadeInLeft qianshou " style="animation-duration: 1.5s;animation-delay: 5s">')
+                                        var zhougong=$('<img src="images/zhougong.png"  class="animated fadeIn zhougong " style="animation-duration: 1.5s;animation-delay: 8s">')
+                                        var maozi=$('<img src="images/maozi.png"  class="animated fadeIn maozi " style="animation-duration: 1.5s;animation-delay: 11s">')
+                                        var yantai=$('<img src="images/yantai.png"  class="animated fadeInRight yantai " style="animation-duration: 1.5s;animation-delay: 14s">')
+                                        var xijiao=$('<img src="images/xijiao.png"  class="animated fadeInLeftBig xijiao " style="animation-duration: 2s;animation-delay: 17s">')
+                                        var huazhuang=$('<img src="images/huazhuang.png"  class="animated fadeIn huazhuang " style="animation-duration: 1.5s;animation-delay: 20s">')
+                                        var xiao=$('<img src="images/xiao.png"  class="animated fadeInLeft xiao " style="animation-duration: 1.5s;animation-delay: 23s">')
+                                        var chuan=$('<img src="images/chuan.png"  class="animated fadeInRightBig chuan " style="animation-duration: 2s;animation-delay: 26s">')
+                                        var biaobai=$('<img src="images/biaobai.png"  class="animated fadeIn biaobai " style="animation-duration: 1.5s;animation-delay: 29s">')
+                                        var jiezhi=$('<img src="images/jiezhi.png"  class="animated fadeInRight jiezhi " style="animation-duration: 1.5s;animation-delay: 32s">')
+                                        var nvren=$('<img src="images/nvren.png"  class="animated fadeInLeftBig nvren " style="animation-duration: 2s;animation-delay: 35s">')
+                                        var hunsha=$('<img src="images/hunsha.png"  class="animated fadeIn hunsha " style="animation-duration: 1.5s;animation-delay: 39s">')
+                                        var jiaoshi=$('<img src="images/jiaoshi.png"  class="animated fadeInLeft jiaoshi " style="animation-duration: 1.5s;animation-delay: 42s">')
+                                        var bufen=$('<img src="images/bufen.png"  class="animated fadeIn bufen " style="animation-duration: 1.5s;animation-delay: 45s">')
+                                        var cengjing=$('<img src="images/cengjing.png"  class="animated fadeInUp cengjing img-responsive " style="animation-duration: 2.5s;animation-delay: 49s">')
+                                        var houlai=$('<img src="images/houlai.png"  class="animated fadeInUp houlai img-responsive " style="animation-duration: 2.5s;animation-delay: 54s">')
+                                        var xiaolongnv=$('<img src="images/xiaolongnv.png"  class="animated fadeIn xiaolongnv img-responsive " style="animation-duration: 2.5s;animation-delay: 59.5s">')
                                         $('.box4').append(yueding);
                                         $('.box4').append(qianshou);
                                         $('.box4').append(zhougong);
